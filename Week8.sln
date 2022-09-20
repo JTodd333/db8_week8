@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTMLPractice", "HTMLPractice\HTMLPractice.csproj", "{291B151C-9B02-4B6D-8E37-61726742AB91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalWebsiteLab", "PersonalWebsiteLab\PersonalWebsiteLab.csproj", "{CCFBF939-B086-4AC3-A759-19258CF868D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormDemo", "FormDemo\FormDemo.csproj", "{6A42E148-03A8-4422-88C2-961AF11E1E3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControllerPractice1", "ControllerPractice1\ControllerPractice1.csproj", "{5FDDF48C-7373-4F6B-B68F-666813E7B8E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeShopRegLab", "CoffeeShopRegLab\CoffeeShopRegLab.csproj", "{1431D819-0FEE-4646-ACB4-16F81F542A92}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{25E65934-4CE9-47DC-8251-B9DB808C4C8D}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore.txt = .gitignore.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{291B151C-9B02-4B6D-8E37-61726742AB91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{291B151C-9B02-4B6D-8E37-61726742AB91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{291B151C-9B02-4B6D-8E37-61726742AB91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{291B151C-9B02-4B6D-8E37-61726742AB91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCFBF939-B086-4AC3-A759-19258CF868D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCFBF939-B086-4AC3-A759-19258CF868D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCFBF939-B086-4AC3-A759-19258CF868D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCFBF939-B086-4AC3-A759-19258CF868D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A42E148-03A8-4422-88C2-961AF11E1E3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A42E148-03A8-4422-88C2-961AF11E1E3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A42E148-03A8-4422-88C2-961AF11E1E3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A42E148-03A8-4422-88C2-961AF11E1E3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FDDF48C-7373-4F6B-B68F-666813E7B8E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FDDF48C-7373-4F6B-B68F-666813E7B8E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FDDF48C-7373-4F6B-B68F-666813E7B8E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FDDF48C-7373-4F6B-B68F-666813E7B8E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1431D819-0FEE-4646-ACB4-16F81F542A92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1431D819-0FEE-4646-ACB4-16F81F542A92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1431D819-0FEE-4646-ACB4-16F81F542A92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1431D819-0FEE-4646-ACB4-16F81F542A92}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A66A099-7D69-488E-BCD2-0B76692F5864}
+	EndGlobalSection
+EndGlobal
