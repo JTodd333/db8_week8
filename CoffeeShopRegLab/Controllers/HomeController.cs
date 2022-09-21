@@ -28,9 +28,10 @@ namespace CoffeeShopRegLab.Controllers
             return View();
         }
 
-        public IActionResult ProcessRegister(string firstName)
+        public IActionResult ProcessRegister(string firstName, string email)
         {
             ViewBag.FirstName = firstName;
+            ViewBag.Email = email;
             return View();
         }
 

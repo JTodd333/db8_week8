@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rTnfowRKZI0CE4UaLbMnOHwrpTv1veK0A4fifjlV+e4=",
+  "Hash": "cIFnLdgfFzScH1V9B5Y+KzLvoaqMpoga4li4jXf7WTo=",
   "Source": "CoffeeShopRegLab",
   "BasePath": "_content/CoffeeShopRegLab",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\JTodd1\\Desktop\\DevBuild\\Week8\\CoffeeShopRegLab\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CoffeeShopRegLab.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\JTodd1\\Desktop\\DevBuild\\Week8\\CoffeeShopRegLab\\wwwroot\\coffee.avif",
+      "SourceId": "CoffeeShopRegLab",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JTodd1\\Desktop\\DevBuild\\Week8\\CoffeeShopRegLab\\wwwroot\\",
+      "BasePath": "_content/CoffeeShopRegLab",
+      "RelativePath": "coffee.avif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\coffee.avif"
     },
     {
       "Identity": "C:\\Users\\JTodd1\\Desktop\\DevBuild\\Week8\\CoffeeShopRegLab\\wwwroot\\css\\site.css",
