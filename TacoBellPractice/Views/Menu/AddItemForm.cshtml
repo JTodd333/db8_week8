@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewData["Title"] = "AddItemForm";
+}
+
+<h1>Add New Menu Item</h1>
+
+Please fill out to add new item. <br/><br/>
+
+<form method="post" action="/menu/addeditem">
+    Name: <input type="text" name="name" required/> <br/><br/>
+
+    Price: <input type="text" name="price" required/> <br/><br/>
+
+    Calories: <input type="text" name="calories" required/> <br/> <br/>
+
+    Meat Type: 
+        <select name="meattype" required>
+            <option>Beef</option>
+            <option>Chicken</option>
+            <option>Steak</option>
+            <option>N/A</option>
+        </select>
+        <br/><br/>
+    Vegetarian:
+        <select name="vegetarian" required>
+                <option>Yes</option>
+                <option>No</option>
+            </select>
+            <br/><br/>
+    <input type="submit" value="Add Item" />
+</form>

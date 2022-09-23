@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewData["Title"] = "ShowRegister";
+}
+
+<h1>Resgistration Page</h1>
+
+<form method ="post" action="/home/register">
+    First Name: <input type="text" name="firstname" /> <br />
+    Last Name: <input type="text" name="lastname" /> <br />
+    Email: <input type="text" name="email" /> <br />
+    Born: <input type="text" name="born" /> 
+
+    <!--
+        <select name="born">
+            <option>1960</option>
+            <option>1961</option>
+            <option>1962</option>
+            <option>1963</option>
+            <option>1964</option>
+            <option>1965</option>
+            <option>1990</option>
+            <option>1991</option>
+            <option>1992</option>
+            <option>1993</option>
+            <option>1994</option>
+            <option>1995</option>
+        </select>
+        -->
+
+    <input type="submit" value="Register" />
+</form>
+

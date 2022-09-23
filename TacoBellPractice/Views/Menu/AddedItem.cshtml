@@ -1,0 +1,14 @@
+﻿@model MenuItem;
+@{
+    ViewData["Title"] = "AddedItem";
+}
+
+<h1>Item Added!</h1> 
+
+Name: @Model.Name <br/>
+Price: $@Model.Price <br/>
+Calories: @Model.Calories <br/>
+Meat Type: @Model.MeatType <br/>
+Vegetarian: @Model.Vegetarian <br/> <br/>
+
+Add Another Item? <a href="/menu/additemform">click here</a>

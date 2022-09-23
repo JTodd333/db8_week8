@@ -15,8 +15,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\JTodd1\Desktop\DevBuild\Week8\CoffeeShopRegLab
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/JTodd1/Desktop/DevBuild/Week8/CoffeeShopRegLab/Views/Home/ErrorNull.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFcnJvck51bGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/JTodd1/Desktop/DevBuild/Week8/CoffeeShopRegLab/Views/Home/ErrorPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFcnJvclBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/JTodd1/Desktop/DevBuild/Week8/CoffeeShopRegLab/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/JTodd1/Desktop/DevBuild/Week8/CoffeeShopRegLab/Views/Home/Menu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNZW51LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/JTodd1/Desktop/DevBuild/Week8/CoffeeShopRegLab/Views/Home/Privacy.cshtml]

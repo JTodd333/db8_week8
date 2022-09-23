@@ -23,17 +23,47 @@ namespace CoffeeShopRegLab.Controllers
             return View();
         }
 
+        public IActionResult Menu()
+        {
+            return View();
+        }
+
         public IActionResult Register()
         {
             return View();
         }
 
-        public IActionResult ProcessRegister(string firstName, string email)
+        //Replaced this by adding a class for User
+        //public IActionResult ProcessRegister(string firstName, string email)
+        //{
+        //    ViewBag.FirstName = firstName;
+        //    ViewBag.Email = email;rtt
+        //    return View();
+        //}
+
+        public IActionResult ProcessRegister(User newuser)
         {
-            ViewBag.FirstName = firstName;
-            ViewBag.Email = email;
-            return View();
+            //This coule really be replaced now by putting "required" in form in put.
+            if (newuser.FirstName == null || newuser.LastName == null || newuser.Email == null || newuser.Password == null)
+            {
+                return View("ErrorNull");
+            }
+            else if (newuser.Password == newuser.ConfirmPass)
+            {
+                return View(newuser);
+            }
+
+            //else
+            //{
+            //    return View("ErrorPassword");
+            //}
+            else
+            {
+                ViewBag.PasswordError = "Passwords do not match! Please try again.";
+                return View("Register");
+            }
         }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

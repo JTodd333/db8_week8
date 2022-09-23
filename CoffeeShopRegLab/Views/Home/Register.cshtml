@@ -3,14 +3,17 @@
     ViewData["Title"] = "Register";
 }
 
-<h1>Please Enter to Register</h1>
+<h1 class="display-4" style="font-size: 2.5rem;">Please Enter to Register</h1>
 
 <form method="post" action="/home/processregister">
     First Name: <input type="text" name="firstName" /> <br/> <br/>
     Last Name:  <input type="text" name="lastName" /> <br/> <br/>
-    Email: <input type="text" name="email" /> <br/> <br/>
+    Email: <input type="email" name="email" /> <br/> <br/>
+    Birthday: <input type="date" name="birthday" /> <br/> <br/>
     Password: <input type="password" name="password" /> <br/> <br/>
-    Would you like to receive email updates? <br/>
+     <span style="color: red; font-weight: bold;">@ViewBag.PasswordError</span> <br/>
+    Confirm Password: <input type="password" name="confirmpass" /> <br/> <br/>
+    Would you like to receive email updates? (Events, birthday rewards, new releases, etc.) <br/>
      
   <div class="form-check">
   <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
