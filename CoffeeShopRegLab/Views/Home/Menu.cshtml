@@ -1,6 +1,14 @@
 ﻿
 @{
     ViewData["Title"] = "Menu";
+    <style>
+            td{
+                text-align: center;
+            }
+            th{
+                padding: 7px;
+            }
+    </style>
 }
 
 <h1>Menu</h1>
@@ -8,14 +16,64 @@
 <div class="images-container" style="margin ">
     <div>
         <img style="border-radius:20px; height: 300px;" src="https://images.unsplash.com/photo-1527678357412-ef45dfbd9ecc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" /><br/> 
-        <p style="padding-left: 50px;">Iced Macchiato</p>
+        <p style="text-align: center; font-weight: bold;">Iced Macchiato</p> 
+        <p style="padding-left: 20px"> Regular $4.50 <br/>
+            Large $5.25
+        </p>
     </div>
     <div>
         <img style="border-radius:20px; height: 300px; margin-left: 20px; margin-right: 20px;" src="https://images.unsplash.com/photo-1621135177072-57c9b6242e7a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" /> <br/>
-        <p style="padding-left: 110px;">Latte</p>
+        <p style="text-align: center; font-weight: bold;">Latte</p>
+        <p style="padding-left: 20px"> Regular $4.50 <br/>
+            Large $5.25
+        </p>
     </div>
     <div>
         <img style="border-radius:20px; height: 300px;" src="https://images.unsplash.com/photo-1621267860478-dbdd589372db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" /> <br/>
-        Coffee
+        <p style="text-align: center; font-weight: bold;">Coffee</p>
+        <p style="padding-left: 20px"> Regular $3.00 <br/>
+            Large $3.75
+        </p>
     </div>
 </div>
+<br/><br/>
+<h4>Flavor Shots</h4>
+<table style= "border: 1px solid black;">
+    <thead>
+        <tr>
+            <th>Flavor</th>
+            <th>Sugar</th>
+            <th>Sugar-Free</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Vanilla</td>
+            <td>Yes</td>
+            <td>Yes</td>
+        </tr>
+        <tr>
+            <td>Mocha</td>
+            <td>Yes</td>
+            <td>Yes</td>
+        </tr>
+        <tr>
+            <td>Caramel</td>
+            <td>Yes</td>
+            <td>Yes</td>
+        </tr>
+        <tr>
+            <td>Toffee</td>
+            <td>Yes</td>
+            <td>No</td>
+        </tr>
+        <tr>
+            <td>Hazelnut</td>
+            <td>Yes</td>
+            <td>Yes</td>
+        </tr>
+        
+
+    </tbody>
+    
+</table>

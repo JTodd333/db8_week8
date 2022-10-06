@@ -15,7 +15,7 @@ namespace InstrumentsDemo.Controllers
             return View();
         }
 
-        public IActionResult Add(Instrument inst) //the inst came form a form
+        public IActionResult Add(Instrument inst) //the inst came form the form
         {
             bool errorFound = false;
             //Validate 

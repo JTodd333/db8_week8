@@ -53,13 +53,14 @@ namespace CoffeeShopRegLab.Controllers
                 return View(newuser);
             }
 
+            //Replaced this (opens new "error page" with error message instead, below code)
             //else
             //{
             //    return View("ErrorPassword");
             //}
             else
             {
-                ViewBag.PasswordError = "Passwords do not match! Please try again.";
+                ViewBag.PasswordErrorMessage = "Passwords do not match! Please try again.";
                 return View("Register");
             }
         }
